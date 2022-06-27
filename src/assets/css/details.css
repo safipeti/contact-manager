@@ -1,0 +1,36 @@
+ul.data-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--input-color);
+    margin: 1rem 0;
+}
+
+li.data-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--text-bg);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+li.data-list-item span:first-child {
+    flex: 0 0 30%;
+    text-transform: uppercase;
+    border-right: 1px solid #333;
+}
+.data p.notes {
+    padding: 1rem;
+    background-color: var(--text-bg);
+    border-radius: 5px;
+    margin-top: 1.6rem;
+}
+
+span.label {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--bg-color);
+    border-radius: 5px;
+    color: var(--icon-color);
+}

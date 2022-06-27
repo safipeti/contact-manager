@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.header .search {
+    /* flex: 1; */
+    margin-right: 2rem;
+    flex: 1;
+}
+.header input {
+    background-color: var(--text-bg);
+}
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-list-item a {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(165, 149, 161, 0.3) 0px 8px 24px;
+    background-color: var(--text-bg);
+    color: var(--input-color);
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact-list-item img {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border: 3px solid var(--input-color);
+    margin-right: 3rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.contact-name {
+    flex: 1;
+}
+.contact-list-item a:hover {
+    opacity: 0.9;
+    transition: 0.2s ease;
+}
+
+.contact-details-icons {
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}
+.search {
+    position: relative;
+    display: flex;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.search input[type="text"] {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    flex: 1;
+}
+.search span {
+    padding: 1rem 1.8rem;
+    background-color: var(--input-color);
+    color: var(--icon-color);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
